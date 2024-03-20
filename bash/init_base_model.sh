@@ -22,3 +22,4 @@ do
 done
 
 
+    python init_base_model.py --arch resnet18 --train_epoch 20 --train_data_name cifar10 --lr 0.001 --batch_size 128 --seed 123 --gpu 0 --cifar_data_path /data/czxie/datasets/Cifar10 --cifar_corruption_path /data/czxie/datasets/CIFAR-10-C
