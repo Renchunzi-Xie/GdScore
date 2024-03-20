@@ -27,7 +27,7 @@ def load_cifar10_image(corruption_type,
     dataset = datasets.CIFAR10(clean_cifar_path,
                                train=training_flag,
                                transform=transform,
-                               download=False)
+                               download=True)
 
     if corruption_severity > 0:
         assert not training_flag
