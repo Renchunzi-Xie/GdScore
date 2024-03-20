@@ -1,4 +1,4 @@
-from gdscore import GdScore
+from algs.gdscore import GdScore
 
 def create_alg(alg_name, val_loader, device, args):
     alg_dict = {
