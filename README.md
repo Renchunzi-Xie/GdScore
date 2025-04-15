@@ -1,4 +1,9 @@
-# GdScore
+# GdScore (TMLR 2025)
+**The repository contains the official implementation of GdScore, a one-step gradient-based method to assess the generalization performance of neural networks under distribution shifts introduced in.**
+>[Leveraging Gradients for Unsupervised Accuracy Estimation under Distribution Shift](https://arxiv.org/pdf/2401.08909).
+><br/>Renchunzi Xie, Ambroise Odonnat, Vasilii Feofanov, Ievgen Redko, Jianfeng Zhang, Bo An.
+
+
 ## Datasets
 ### Pre-trained process
 
@@ -52,3 +57,16 @@ curl -O https://zenodo.org/record/2235448/files/weather.tar
 Step 1: Pre-train models using commands in `./bash/init_base_model.sh`.
 
 Step 2: Estimate OOD error using commands in `./bash/gdscore.sh`.
+
+## Reference
+If you find it is useful for your work, please consider citing
+
+```
+@article{xie2024leveraging,
+  title={Leveraging Gradients for Unsupervised Accuracy Estimation under Distribution Shift},
+  author={Xie, Renchunzi and Odonnat, Ambroise and Feofanov, Vasilii and Redko, Ievgen and Zhang, Jianfeng and An, Bo},
+  journal={arXiv preprint arXiv:2401.08909},
+  year={2024}
+}
+```
+
